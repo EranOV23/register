@@ -1,0 +1,104 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #EEEEEE;
+}
+
+button{
+	margin-top: 5px;
+	border: 1px solid #EEEEEE;
+	background-color: #fff;
+}
+
+button:hover{
+	background-color: #00AA5B;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.main{
+	background-color: #fff;
+	margin: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	.product-list{
+		display: flex;
+	}
+
+		.product{
+			display: flex;
+			flex-direction: column;
+			margin: 10px;
+			align-items: center;			
+		}
+
+			.product-image{
+				width: 100px;
+			}
+
+.sub{
+	display: flex;
+}
+
+	.list{
+		background-color: #fff;
+		margin: 50px;
+		margin-top: 10px;
+		margin-right: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+	}
+
+		.list li{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.list img{
+			width: 100px;
+		}
+
+		.list button{
+			margin-bottom: 50px;
+		}
+
+	.bag-total{
+		background-color: #fff;
+		margin: 50px;
+		margin-top: 10px;
+		margin-left: 10px;		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+	}
+
+		#register-total{
+			margin: 10px;
+		}
+
+		#cash-input{
+			box-sizing: border-box;
+			width: 200px;
+			height: 40px;
+		}
+
+		#pay{
+			margin: 10px;
+			background-color: #00AA5B;
+			width: 200px;
+			height: 40px;
+			color: #fff;
+			font-size: 18px;
+		}
